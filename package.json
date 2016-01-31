@@ -1,0 +1,27 @@
+{
+  "name": "jasmine-test",
+  "version": "1.0.0",
+  "description": "Using karma and jasmine to do unit test for angularjs project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "karma start",
+    "postinstall": "bower install"
+  },
+  "keywords": [
+    "jasmine",
+    "angular",
+    "karma"
+  ],
+  "author": "Sailor",
+  "license": "MIT",
+  "devDependencies": {
+    "bower": "^1.7.7",
+    "del": "^2.2.0",
+    "gulp": "^3.9.0",
+    "jasmine-core": "^2.4.1",
+    "karma": "^0.13.19",
+    "karma-chrome-launcher": "^0.2.2",
+    "karma-coverage": "^0.5.3",
+    "karma-jasmine": "^0.3.6"
+  }
+}

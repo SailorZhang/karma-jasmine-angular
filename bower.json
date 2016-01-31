@@ -1,0 +1,30 @@
+{
+  "name": "jasmine-test",
+  "description": "Using karma and jasmine to do unit test for angularjs project.",
+  "main": "index.js",
+  "authors": [
+    "Sailor"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "jasmine",
+    "angular",
+    "karma"
+  ],
+  "moduleType": [
+    "amd"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "angularjs#^1.4.9",
+    "angular-mocks": "^1.4.9",
+    "underscore": "^1.8.3"
+  }
+}
