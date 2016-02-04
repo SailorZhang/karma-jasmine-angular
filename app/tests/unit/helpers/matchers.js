@@ -38,7 +38,7 @@ beforeEach(() => {
 					var result = {};
 					result.pass = _.union(actualClass, className).length === actualClass.length;
 					result.message = () => {
-						return `Expected to have ${className} but had ${actualClass}.`;
+						return `Expected to have ${className} but had ${actual}`;
 					};
 					return result;
 				}

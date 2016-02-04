@@ -1,4 +1,4 @@
-describe('Test validators -> multiple-emails', () => {
+xdescribe('Test validators -> multiple-emails', () => {
 	var compile, rootScope, helper;
 
 	beforeEach(module('myApp'));
