@@ -1,5 +1,5 @@
 'use strict';
-app.controller('IndexController', ['$scope', function($scope) {
+app.controller('IndexController', ['$scope', '_', function($scope, _) {
 
     var _load = function() {
         $scope.$apply(function() {
